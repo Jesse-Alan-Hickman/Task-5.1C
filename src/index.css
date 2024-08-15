@@ -1,0 +1,115 @@
+#selectionPost {
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+#selectionPost h1 {
+    background-color: #dcdcdc;
+    padding: 20px;
+    margin: 0;
+    text-align: left;
+    font-size: 45px;
+    color: rgb(1, 88, 88);
+}
+
+#selectionPost h2 {
+    padding: 20px;
+    margin: 0;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(1, 88, 88);
+}
+
+#selectionPost h3 {
+    text-align: left;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+#postTypeSelection {
+    display: flex;
+    align-items: center;
+    background-color: rgb(154, 193, 193);
+}
+
+#questionButton, #articleButton {
+    margin-right: 30px;
+    font-size: 22px;
+}
+
+#questionButton input, #articleButton input {
+    margin-right: 5px;
+}
+
+#questionPost, #articlePost {
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+#questionPost h2, #articlePost h2 {
+    background-color: #dcdcdc;
+    text-align: left;
+}
+
+#questionTitle, #articleTitle, #questionTags, #articleTags {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#questionPost label, #articlePost label {
+    margin-right: 15px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+#questionPost input, #articlePost input {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#questionPost textarea, #articlePost textarea {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 98%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#questionPost button, #articlePost button {
+    background-color: rgb(1, 88, 88);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    display: block;
+    width: 150px;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+#questionPost button:hover, #articlePost button:hover {
+    background-color: rgb(22, 116, 116);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    display: block;
+    width: 150px;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f5f5f5;
+}
